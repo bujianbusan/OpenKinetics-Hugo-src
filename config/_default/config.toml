@@ -5,14 +5,14 @@
 # This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
-# Title of your site 网站的标题行显示的信息
-title = "OpenKinetic"
+# Title of your site
+title = "Academic"
 
-# The URL of your site. 这就是域名的网址
+# The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://www.openkinetics.com/"
+baseurl = "/"
 
-# Enter a copyright notice to display in the site footer. 在页脚处显示版权说明
+# Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
 copyright = ""
 
@@ -20,13 +20,13 @@ copyright = ""
 ## Advanced options below ##
 ############################
 
-# Name of Academic theme folder in `themes/`. 主题名字
+# Name of Academic theme folder in `themes/`.
 theme = "academic"
 
-# Get last modified date for content from Git? 从Git获取最后修改时间
+# Get last modified date for content from Git?
 enableGitInfo = false
 
-# Default language to use (if you setup multilingual support) 多语言支持，默认语言
+# Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
 hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
