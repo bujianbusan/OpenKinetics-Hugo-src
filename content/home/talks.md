@@ -1,29 +1,29 @@
 +++
-# A Recent and Upcoming Talks section created with the Pages widget.
+# A Recent and Upcoming Talks section created with the Pages widget. 我最近的主题演讲
 # This section displays recent talks from `content/talk/`.
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 70  # Order that this section will appear.
+weight = 70  # Order that this section will appear. 出现的位置
 
 title = "Recent & Upcoming Talks"
-subtitle = ""
+subtitle = "我最近的演讲"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "talk"
   
-  # Choose how much pages you would like to display (0 = all pages)
+  # Choose how much pages you would like to display (0 = all pages) 选择你想展示的演讲数量
   count = 5
   
   # Choose how many pages you would like to offset by
   offset = 0
 
-  # Page order. Descending (desc) or ascending (asc) date.
+  # Page order. Descending (desc) or ascending (asc) date. 演讲页是顺序，按照时间正序或者反序
   order = "desc"
 
-  # Filter posts by a taxonomy term.
+  # Filter posts by a taxonomy term.按照分类术语关键词选择文章
   [content.filters]
     tag = ""
     category = ""
@@ -34,12 +34,12 @@ subtitle = ""
     exclude_future = false
     
 [design]
-  # Toggle between the various page layout types.
+  # Toggle between the various page layout types. 显示风格
   #   1 = List
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 1
   
 [design.background]
   # Apply a background color, gradient, or image.

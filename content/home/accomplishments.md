@@ -1,8 +1,8 @@
 +++
-# Accomplishments widget.
+# Accomplishments widget. 展示您的（在线学习）证书和其他成就
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = true  # Activate this widget? true/false 打开
 weight = 50  # Order that this section will appear.
 
 title = "Accomplish&shy;ments"

@@ -5,35 +5,35 @@
 # This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
-# Title of your site
-title = "Academic"
+# Title of your site 网站标题
+title = "OpenKinetics"
 
-# The URL of your site.
+# The URL of your site. 网站地址
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://www.openkinetics.com/"
 
-# Enter a copyright notice to display in the site footer.
+# Enter a copyright notice to display in the site footer. 添加网站版权和备案号
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = ""
+copyright = "&copy; {year}-2030 [OpenKinetics](https://www.openkinetics.com) 版权所有 [晋ICP备20004865号](https://www.beian.miit.gov.cn)"
 
 ############################
 ## Advanced options below ##
 ############################
 
-# Name of Academic theme folder in `themes/`.
+# Name of Academic theme folder in `themes/`. 设置主题
 theme = "academic"
 
-# Get last modified date for content from Git?
+# Get last modified date for content from Git? 从Git获取最后修改时间
 enableGitInfo = false
 
-# Default language to use (if you setup multilingual support)
+# Default language to use (if you setup multilingual support) 多语言支持，默认语言
 defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
 
-summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.
-paginate = 10  # Number of items per page in paginated lists.
+summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`. 列表摘要的长度（以字为单位）
+paginate = 20  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

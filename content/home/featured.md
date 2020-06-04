@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 80  # Order that this section will appear.
 
 title = "Featured Publications"
-subtitle = ""
+subtitle = "内容精选"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -18,7 +18,7 @@ subtitle = ""
   # Choose how much pages you would like to display (0 = all pages)
   count = 0
 
-  # Page order. Descending (desc) or ascending (asc) date.
+  # Page order. Descending (desc) or ascending (asc) date. 按照时间顺序排列
   order = "desc"
 
   # Show a "See all pages" link underneath the featured content?

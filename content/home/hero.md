@@ -1,13 +1,13 @@
 +++
-# Hero widget.
+# Hero widget. 主页 → 鼓励访客采取行动（CTA）
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = true  # Activate this widget? true/false 显示
 weight = 10  # Order that this section will appear.
 
-title = "Academic"
+title = "OpenKinetics"
 
-# Hero image (optional). Enter filename of an image in the `static/img/` folder.
+# Hero image (optional). Enter filename of an image in the `static/img/` folder. 这个地方就是设置背景照片的地方
 hero_media = "hero-academic.png"
 
 [design.background]
@@ -38,7 +38,7 @@ hero_media = "hero-academic.png"
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "https://sourcethemes.com/academic/docs/install/"
-  label = "Get Started"
+  label = "Download"
   icon_pack = "fas"
   icon = "download"
   
@@ -46,13 +46,13 @@ hero_media = "hero-academic.png"
   url = "https://sourcethemes.com/academic/"
   label = "View Documentation"
 
-# Note. An optional note to show underneath the links.
+# Note. An optional note to show underneath the links. 显示最新版本信息
 [cta_note]
   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-**The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)**
+**OpenKinetic是一款基于半开放体系生烃热模拟仪的动力学软件**
 
-Build **Anything** with Widgets
+Build **Anything** with GitHub
 
 <span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>

@@ -1,24 +1,25 @@
 +++
-# A Skills section created with the Featurette widget.
+# A Skills section created with the Featurette widget. 主页 → 显示专业技能
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Skills"
-subtitle = ""
+subtitle = "专业技能"
 
 # Showcase personal skills or business features.
 # 
 # Add/remove as many `[[feature]]` blocks below as you like.
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+# 这里是设置技能列表的
 
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "90%"
+  description = "40%"
   
 [[feature]]
   icon = "chart-line"
@@ -32,7 +33,7 @@ subtitle = ""
   name = "Photography"
   description = "10%"
 
-# Uncomment to use emoji icons.
+# Uncomment to use emoji icons. 用墨迹图标来设置
 # [[feature]]
 #  icon = ":smile:"
 #  icon_pack = "emoji"
@@ -43,9 +44,9 @@ subtitle = ""
 # Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
 # Reference the SVG icon name (without `.svg` extension) in the `icon` field.
 # [[feature]]
-#  icon = "your-custom-icon-name"
-#  icon_pack = "custom"
-#  name = "Surfing"
-#  description = "90%"
+#  icon = "Cpp-Logo"
+#  icon_pack = "fab"
+#  name = "C++"
+#  description = "40%"
 
 +++

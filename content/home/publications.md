@@ -1,5 +1,5 @@
 +++
-# A Recent Publications section created with the Pages widget.
+# A Recent Publications section created with the Pages widget. 最近出版的东西
 # This section displays recent blog posts from `content/publication/`.
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
 title = "Recent Publications"
-subtitle = ""
+subtitle = "最近发表"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -20,7 +20,7 @@ subtitle = ""
   # Choose how many pages you would like to offset by
   offset = 0
 
-  # Page order. Descending (desc) or ascending (asc) date.
+  # Page order. Descending (desc) or ascending (asc) date. 按照时间排序
   order = "desc"
 
   # Filter posts by a taxonomy term.
@@ -37,7 +37,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 1
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -67,6 +67,6 @@ subtitle = ""
  css_class = ""
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+ {{% alert note %}}
+ Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
+ {{% /alert %}}

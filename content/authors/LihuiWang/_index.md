@@ -1,15 +1,16 @@
 ---
+# 为王利辉创建一个用户名
 # Display name
-title: 吳恩達
+title: Lihui Wang
 
 # Username (this should match the folder name)
 authors:
-- 吳恩達
+- LihuiWang
 
-# Is this the primary user of the site?
+# Is this the primary user of the site? 禁用她，他不是主要用户
 superuser: false
 
-# Role/position
+# Role/position 角色
 role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations

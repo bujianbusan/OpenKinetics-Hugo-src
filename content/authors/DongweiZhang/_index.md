@@ -4,7 +4,7 @@ title: Dongwei Zhang
 
 # Username (this should match the folder name) 必须和文件夹名字匹配
 authors:
-- admin
+- DongweiZhang
 
 # Is this the primary user of the site? 这里设置该用户作为默认用户
 superuser: true

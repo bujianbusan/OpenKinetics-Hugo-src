@@ -1,12 +1,12 @@
 +++
-# A Projects section created with the Portfolio widget.
+# A Projects section created with the Portfolio widget. 主页 → 显示项目
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = true  # Activate this widget? true/false 显示
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
-subtitle = ""
+subtitle = "项目"
 
 [content]
   # Page type to display. E.g. project.
@@ -18,7 +18,7 @@ subtitle = ""
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
   
-  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
+  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below). 内容索引
   filter_default = 0
   
   [[content.filter_button]]
@@ -26,8 +26,8 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
+    name = "Deep-water"
+    tag = "Deep-water"
   
   [[content.filter_button]]
     name = "Other"
@@ -42,9 +42,9 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view = 1
 
-  # For Showcase view, flip alternate rows?
+  # For Showcase view, flip alternate rows? 对于Showcase视图，是否翻转其他行？
   flip_alt_rows = false
 
 [design.background]

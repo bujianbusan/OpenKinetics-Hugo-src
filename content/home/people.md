@@ -1,17 +1,17 @@
 +++
-# A "Meet the Team" section created with the People widget.
+# A "Meet the Team" section created with the People widget. 会议的小团队
 # This section displays people from `content/authors/` which belong to the `user_groups` below.
 
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 68  # Order that this section will appear.
 
 title = "Meet the Team"
-subtitle = ""
+subtitle = "课题组"
 
 [content]
-  # Choose which groups/teams of users to display.
+  # Choose which groups/teams of users to display. 选择用于显示的用户组。 前提是要创建好用户组
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups = ["Principal Investigators",
                  "Researchers",
@@ -21,10 +21,10 @@ subtitle = ""
                  "Alumni"]
 
 [design]
-  # Show user's social networking links? (true/false)
-  show_social = false
+  # Show user's social networking links? (true/false)  显示用户的社交联系方式
+  show_social = true
 
-  # Show user's interests? (true/false)
+  # Show user's interests? (true/false) 显示用户的兴趣爱好
   show_interests = true
 
 [design.background]

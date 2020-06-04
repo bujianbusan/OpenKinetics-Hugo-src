@@ -9,22 +9,22 @@
 ## Theme
 ############################
 
-# Choose a theme.
+# Choose a theme. 设置主题包里面第一个主题
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
 theme = "minimal"
 
-# Enable users to switch between day and night mode?
+# Enable users to switch between day and night mode? 夜间模式切换夜间模式切换
 day_night = true
 
-# Override the theme's font set (optional).
+# Override the theme's font set (optional). 设置字体
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in font sets in `themes/academic/data/fonts/`
 #   Browse user installed font sets in `data/fonts/`
 font = ""
 
-# Choose a font size.
+# Choose a font size. 设置字号
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
 font_size = "L"
 
@@ -32,7 +32,7 @@ font_size = "L"
 ## Basic Info
 ############################
 
-# Website type
+# Website type 网站类型，基本信息
 #   Improve how search engines understand your site.
 #   For personal sites, choose "Person".
 #   For organizations and projects, choose from https://schema.org/Organization#subtypes
@@ -54,21 +54,21 @@ description = ""
 ## Site Features
 ############################
 
-# Enable source code highlighting? true/false
+# Enable source code highlighting? true/false 语法高亮打开
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
 highlight_languages = ["r"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
-# Enable LaTeX math rendering? true/false
+# Enable LaTeX math rendering? true/false 支持LaTeX数学公式打开
 #   If false, you can enable math on a per page basis as needed.
-math = false
+math = true
 
-# Enable diagram rendering? true/false
+# Enable diagram rendering? true/false 支持图形图像的显示打开
 #   If false, you can enable diagrams on a per page basis as needed.
-diagram = false
+diagram = true
 
-# Privacy pack
+# Privacy pack 隐私保护
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
 privacy_pack = false
@@ -77,7 +77,7 @@ privacy_pack = false
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
 edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
-# Show related content at the bottom of pages?
+# Show related content at the bottom of pages? 在页面底部显示相关的内容
 show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
 
 ############################
@@ -87,103 +87,103 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ## Additionally, for organizations, these details may be used to enrich search engine results.
 ############################
 
-# Enter contact details (optional). To hide a field, clear it to "".
-email = "test@example.org"
-phone = "888 888 88 88"
+# Enter contact details (optional). To hide a field, clear it to "". 显示联系方式
+email = "zhangdongwei18416@163.com"
+phone = "+86 13737726626"
 
-# Address
+# Address 设置地址
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "450 Serra Mall", city = "Stanford", region = "CA", postcode = "94305", country = "United States", country_code = "US"}
+address = {street = "No.382 Donggang West Road", city = "Lanzhou", region = "", postcode = "730000", country = "China", country_code = "CN"}
 
-# Geographic coordinates
+# Geographic coordinates 经纬度坐标
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "37.4275", longitude = "-122.1697"}
+coordinates = {latitude = "36.049962", longitude = "103.856910"}
 
-# Directions for visitors to locate you.
-directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
+# Directions for visitors to locate you. 还要上楼指定位置
+directions = "Enter Building and take the stairs to Office 622 on Floor 6"
 
-# Office hours
+# Office hours 办公时间
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
+office_hours = ["Monday 7:00 to 20:30", "Tuesday 7:00 to 20:30", "Wednesday 7:00 to 20:30", "Thursday 7:00 to 20:30", "Friday7:00 to 20:30", "Saturday 7:00 to 20:30"]
 
-# Enter an optional link for booking appointments (e.g. calendly.com).
+# Enter an optional link for booking appointments (e.g. calendly.com). 约会网站
 appointment_url = "https://calendly.com"
 
-# Contact links
+# Contact links  设置联系信息
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
-  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
-  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
-  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Zre8AcvABjFhf3H"},
+  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:live:zhangdongwei18416"},
+# {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+# {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+  {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
 ############################
 ## Social
 ############################
 
-# Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+# Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here. https://telegram.me/@+86 137-3772-6626
 sharing_image = ""
 
-# Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = ""
+# Twitter username (without @). Used when a visitor shares your site on Twitter. 设置Twitter用户名
+twitter = "Zre8AcvABjFhf3H"
 
 ############################
 ## Regional Settings
 ############################
 
-# Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+# Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format ) 日期格式
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "Jan 2, 2006"
+date_format = "2006-01-02"
 #   Examples: "3:04 pm" or "15:04"
-time_format = "3:04 PM"
+time_format = "3:04 pm"
 
-# Address format (choose from the [address_formats] list below or add you own to the list).
+# Address format (choose from the [address_formats] list below or add you own to the list). 地址格式
 address_format = "en-us"
 
 ############################
 ## Advanced
 ############################
 
-# Main menu alignment (l = left, c = center, r = right) and logo options.
+# Main menu alignment (l = left, c = center, r = right) and logo options. 主菜单对齐方式，居左，显示图标
 main_menu = {align = "l", show_logo = true}
 
-# Show estimated reading time for posts? (true/false)
+# Show estimated reading time for posts? (true/false) 显示帖子的预计阅读时间
 reading_time = true
 
 # Display next/previous section pager? (true/false)
 section_pager = false
 docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
-# Enable in-built social sharing buttons? (true/false)
+# Enable in-built social sharing buttons? (true/false) 启用内置的社交共享按钮
 sharing = true
 
-# Show a copyright license from creativecommons.org in the site footer?
+# Show a copyright license from creativecommons.org in the site footer? 在网站页脚处显示版权许可信息？
 # Page specific copyright licenses are also possible by adding this option to a page's front matter.
 copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
 
-# Link authors to their profile page? (true/false)
+# Link authors to their profile page? (true/false) 把作者自动跳转到他们的个人资料页面
 link_authors = true
 
-# Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
+# Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`. 能显示出来的摘要长度。
 abstract_length = 135
 
-# Load JS plugins
+# Load JS plugins 加载 JavaScript
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_js  = []
 
-# Avatars.
+# Avatars. 头像设置
 # An avatar is an image that appears next to a user's name.
 # An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
 [avatar]
-  # Get user avatars from Gravatar.com? (true/false)
+  # Get user avatars from Gravatar.com? (true/false) 可以从Gravatar.com获取头像
   gravatar = false
 
-  # Choose a shape for avatar images. Options: circle, square.
+  # Choose a shape for avatar images. Options: circle, square. 设置头像的形状。
   shape = "circle"
 
-# Available address formats.
+# Available address formats.  列出地址格式
 [address_formats]
   en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
   en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
@@ -191,37 +191,37 @@ plugins_js  = []
   fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
   zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
 
-# Configuration of publication pages.
+# Configuration of publication pages. 配置发布页面
 [publications]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "January 2006"
+  date_format = "2006-01-02"
 
   # Citation style ("apa" or "mla")
   citation_style = "apa"
 
-# Configuration of project pages.
+# Configuration of project pages. 配置项目页的 信息显示。
 [projects]
   # Views for associated content.
   #   1: List
   #   2: Compact
   #   3: Card
   #   4: Citation (publications only)
-  post_view = 2
-  publication_view = 2
-  talk_view = 2
+  post_view = 1
+  publication_view = 1
+  talk_view = 1
 
 ############################
 ## Comments
 ############################
 [comments]
-  # Comment provider:
+  # Comment provider: 禁用评论功能吗？
   #   0: Disabled
   #   1: Disqus (https://disqus.com)
   #   2: Commento (https://commento.io)
   engine = 0
 
-  # Which page types are commentable?
+  # Which page types are commentable? 什么样的页面可以被评论
   commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
 
   # Configuration of Disqus.
@@ -238,7 +238,7 @@ plugins_js  = []
 ## Search
 ############################
 [search]
-  # Search provider:
+  # Search provider: 搜索提供商 这里是内部搜索
   #   0: No search engine
   #   1: Academic (built-in)
   #   2: Algolia (https://www.algolia.com)
