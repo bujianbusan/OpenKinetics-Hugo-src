@@ -1,15 +1,15 @@
 +++
-# A Demo section created with the Blank widget.
+# A Demo section created with the Blank widget. 这是创建的一个空白的部件
 # Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false 不显示
 weight = 15  # Order that this section will appear.
 
-title = "Demos"
-subtitle = ""
+title = "Blank widget."
+subtitle = "自定义空白部件"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -50,7 +50,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to the **personal demo** of Academic. Other demos available include:
+欢迎来到 *个人自定义部件* 的设置示例，以下内容就是自定义部件里面该设置的:
 
 - [**Project Demo** (Academic's actual site)](https://sourcethemes.com/academic/)
 
@@ -59,7 +59,7 @@ Welcome to the **personal demo** of Academic. Other demos available include:
 **[Join](https://sourcethemes.com/academic/docs/install/) the Most Empowered Hugo Community**
 
 {{% alert note %}}
-This homepage section is an example of adding [elements](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to the [*Blank* widget](https://sourcethemes.com/academic/docs/widgets/).
+这个主页section主要是用来增加一个空白逐渐的示例 [elements](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to the [*Blank* widget](https://sourcethemes.com/academic/docs/widgets/).
 
-Backgrounds can be applied to any section. Here, the *background* option is set give an *image parallax* effect.
+可以在背景选项处设置该部件的背景颜色。 Here, the *background* option is set give an *image parallax* effect.
 {{% /alert %}}

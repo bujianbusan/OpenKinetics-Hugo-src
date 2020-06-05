@@ -1,16 +1,16 @@
 +++
-# Experience widget.
+# Experience widget. 主页 → 社会实践
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = true  # Activate this widget? true/false 显示
 weight = 40  # Order that this section will appear.
 
 title = "Experience"
-subtitle = ""
+subtitle = "社会经历"
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+date_format = "2006-01-02"
 
 # Experiences.
 #   Add/remove as many `[[experience]]` blocks below as you like.
